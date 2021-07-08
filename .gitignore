@@ -2,3 +2,4 @@
 ._*
 *dask-worker*
 .ipynb_checkpoints
+core*
