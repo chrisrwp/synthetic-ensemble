@@ -13,8 +13,8 @@ for file in $(ls ${dir_path}) #loop through the whole list of files in this dire
 do
     if grep -q "resampled" <<< "$file"; then #only select the files containing 'resampled'
 
-	model_name=$(echo "${file}" | sed 's/_r.*//') #extract the model name
-	areacello_file=$"/glade/scratch/cwpowell/Synthetic_ensemble/Raw_data/areacello/areacello_${model_name}_30N.nc"
+        model_name=$(echo "${file}" | sed 's/_r.*//') #extract the model name
+        areacello_file=$"/glade/scratch/cwpowell/Synthetic_ensemble/Raw_data/areacello/areacello_${model_name}_30N.nc"
         
         fixed_name=$(echo "${file}" | sed 's/.nc$/_fixed_grid.nc/g')
         regrid_name=$(echo "${file}" | sed 's/.nc$/_regrid.nc/g')
