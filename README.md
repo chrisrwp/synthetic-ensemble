@@ -1,11 +1,11 @@
 # synthetic-ensemble
 
 ## Journal article using this analysis
-Wyburn-Powell, C., Jahn, A., England, M. (2022 - accepted) Modeled Interannual Variability of Arctic Sea Ice Cover is Within Observational Uncertainty. *Journal of Climate*. https://doi.org/10.1175/JCLI-D-21-0958.1.
+Wyburn-Powell, C., Jahn, A., England, M. (2022) Modeled Interannual Variability of Arctic Sea Ice Cover is Within Observational Uncertainty. *Journal of Climate*. https://doi.org/10.1175/JCLI-D-21-0958.1.
 
 ## Location of data
-The Arctic Data Center: <br>
-https://doi.org/ ...
+The data required to reproduce all figures in the journal article can be found at The Arctic Data Center: https://doi.org/ ... The names of the datasets as well as the Jupyter Notebook used to create each figure are listed below.
+
 
 ## Abstract of paper
 Internal variability is the dominant cause of projection uncertainty of Arctic sea ice
@@ -36,13 +36,14 @@ sea ice based on these models.
 - Detrended and resampled SIA data using a lowpass filter: `SIA_filtering_resampling.ipynb`
 
 ### Figures
-- Figure 1: `Resampled_figures.ipynb`
-- Figure 2: `SIA_PDFs_consistency.ipynb`
-- Figure 3: `Time_period_and_sigma.ipynb`
-- Figure 4: `Resampled_figures.ipynb`
-- Figure 5: `Resampled_figures.ipynb`
-- Figure 7: `SIA_PDFs_consistency.ipynb`
-- Figure 9: `Resampled_figures.ipynb`
+- Figure 1: `Resampled_figures.ipynb`; `Sigma_obs_SIA.nc`
+- Figure 2: `SIA_PDFs_consistency.ipynb`; `Sigma_obs_SIA.nc`, `Mu_obs_SIA.nc`, `Sigma_mem_SIA.nc`, `Mu_mem_SIA.nc`
+- Figure 3: `Time_period_and_sigma.ipynb`; `Sigma_mem_varying_time_periods_1965_2066_03.nc`, `Sigma_LE_varying_time_periods_1965_2066_03.nc`, `Sigma_LE_varying_time_periods_1970_2040_09.nc`, `Sigma_obs_varying_time_periods_1953_2020.nc`
+- Figure 4: `Resampled_figures.ipynb`; `Sigma_obs_SIA.nc`,  `Sigma_mem_SIA.nc`
+- Figure 5: `Resampled_figures.ipynb`; `Sigma_obs_SIA.nc`
+- Figure 7: `SIA_PDFs_consistency.ipynb`; `Sigma_obs_SIA.nc`, `Mu_obs_SIA.nc`, `Sigma_mem_SIA.nc`, `Mu_mem_SIA.nc`
+- Figure 9: `Resampled_figures.ipynb`; `Sigma_mem_SIA.nc`, `Sigma_LE_SIA.nc` 
+<br><br>
 - Figure S1: `Member_number_and_sigma.ipynb`
 - Figure S2: `Member_number_and_sigma.ipynb`
 - Figure S3: `Time_period_and_sigma.ipynb`
@@ -60,8 +61,9 @@ sea ice based on these models.
 - Resampled model and observational data: `Resample_models_obs.ipynb`
 
 ### Figures
-- Figure 6: `Resampled_figures_SIC.ipynb`
-- Figure 8: `Resampled_figures_SIC.ipynb`
+- Figure 6: `Resampled_figures_SIC.ipynb`; `<model_name>_resampled_0<month>_individual.nc`, `<observational_dataset>_resampled_individual_1979_2020_03_09.nc`
+- Figure 8: `Resampled_figures_SIC.ipynb`; `<model_name>_resampled_0<month>_individual.nc`, `<observational_dataset>_resampled_individual_1979_2020_03_09.nc`
+<br><br>
 - Figure S4: `Resampled_figures_SIC.ipynb`
 - Figure S6: `Resampled_figures_SIC.ipynb`
 - Figure S7: `Resampled_figures_SIC.ipynb`
