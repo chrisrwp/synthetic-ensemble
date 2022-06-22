@@ -4,7 +4,7 @@
 Wyburn-Powell, C., Jahn, A., England, M. (2022) Modeled Interannual Variability of Arctic Sea Ice Cover is Within Observational Uncertainty. *Journal of Climate*. https://doi.org/10.1175/JCLI-D-21-0958.1.
 
 ## Location of data
-The data required to reproduce all figures in the journal article can be found at The Arctic Data Center: https://doi.org/ ... The names of the datasets as well as the Jupyter Notebook used to create each figure are listed below.
+The data required to reproduce all figures in the journal article can be found at The Arctic Data Center: https://doi.org/10.18739/A2H98ZF3T The names of the datasets as well as the Jupyter Notebook used to create each figure are listed below.
 
 
 ## Abstract of paper
